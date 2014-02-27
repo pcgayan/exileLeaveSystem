@@ -80,7 +80,8 @@ label {
 
 input[type=text],
 input[type=password] {
- 	width:100%;
+  width:100%;
+  color:#636369;
   padding:8px 5px;
   background:linear-gradient(#1f2124, #27292c);
   border:1px solid #222;
@@ -103,7 +104,8 @@ input[type=checkbox] {
 }
 
 .p-container {
- 	padding:0 20px 20px 20px; 
+ 	padding:0 20px 20px 20px;
+    color:#636369;	
 }
 
 .p-container:after {
@@ -115,7 +117,7 @@ input[type=checkbox] {
 .p-container span {
   display:block;
   float:left;
-  color:#636369;
+		
   padding-top:8px;
 }
 
