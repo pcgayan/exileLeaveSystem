@@ -29,11 +29,12 @@ a {
   color:white;
   font-size:12px;
   background:#292929;
-  padding-bottom: 20px;
 }
 
 #Footer { 
-	padding: 10px; border-top: none;
+	padding: 10px;
+	border-top: none;
+	left:50%;
 } 
 
 #SocialLinks { 
