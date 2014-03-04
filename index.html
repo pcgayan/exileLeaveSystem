@@ -6,6 +6,15 @@
  	<meta name="exileMobile" content="yes" />
     
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+	<script language="javascript" type="text/javascript">
+
+		function login_onclick() 
+		{
+			window.location = "landing.html";
+		}
+
+	</script>
 </head>
 <body>
 
@@ -24,7 +33,7 @@
 	  </div>
 	  <p class="p-container">
 		<span>Forgot password ?</span>
-		<input type="submit" name="go" id="go" value="Log in">
+		<input type="button" name="go" id="go" value="Log in" onclick="return login_onclick()" />
 	  </p>
 	</form>
 </div>
