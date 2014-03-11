@@ -158,8 +158,8 @@ div.centered {
 @media only screen 
 	and (min-width : 320px) {
 		/* Styles */
-	.p-container span {
-	  padding-top:8px;
+	body {
+	  padding-top:100px;
 	}
 }
 
@@ -167,7 +167,7 @@ div.centered {
 @media only screen 
 	and (min-width : 481px) {
 		/* Styles */
-	.p-container span {
+	body {
 	  padding-top:0px;
 	}
 }
@@ -176,7 +176,7 @@ div.centered {
 @media only screen 
 	and (min-width : 1024px) {
 		/* Styles */
-	.p-container span {
-	  padding-top:8px;
+	body {
+	  padding-top:100px;
 	}
 }
