@@ -55,3 +55,23 @@ a {
 .landing li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
 .landing li img { display: block; width: 100%; height: auto; }
 
+/* Smartphones (landscape) ----------- */
+@media only screen 
+	and (min-width : 321px) {
+		/* Styles */
+		.landing li { float: left; width: 33%; }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+	and (max-width : 320px) {
+		/* Styles */
+		.landing li { float: left; width: 50%; }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+	and (min-width : 1224px) {
+		/* Styles */
+		.landing li { float: left; width: 25%; }
+}
