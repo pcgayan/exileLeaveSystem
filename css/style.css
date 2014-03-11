@@ -117,8 +117,6 @@ input[type=checkbox] {
 .p-container span {
   display:block;
   float:left;
-		
-  padding-top:8px;
 }
 
 input[type=button] {
@@ -153,4 +151,30 @@ label:hover ~ input[type=password] {
 
 div.centered {
     text-align: center;
+}
+
+@media only screen 
+	and (min-width : 321px) {
+		/* Styles */
+	.p-container span {
+	  padding-top:8px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+	and (max-width : 320px) {
+		/* Styles */
+	.p-container span {
+	  padding-top:0px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+	and (min-width : 1024px) {
+		/* Styles */
+	.p-container span {
+	  padding-top:0px;
+	}
 }
