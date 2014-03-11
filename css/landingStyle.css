@@ -52,7 +52,7 @@ a {
 .landing { list-style: none; padding: 0; margin: 0; }
 .landing:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
 .landing li { float: left; width: 50%; }
-.landing li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+.landing li a { display: block; margin: 4px; border: 1px solid #3c3c3c; }
 .landing li img { display: block; width: 100%; height: auto; }
 
 /* Smartphones (landscape) ----------- */
@@ -66,7 +66,7 @@ a {
 @media only screen 
 	and (min-width : 481px) {
 		/* Styles */
-		.landing li { float: left; width: 33%; }
+		.landing li { float: left; width: 33.2%; }
 }
 
 /* Desktops and laptops ----------- */
