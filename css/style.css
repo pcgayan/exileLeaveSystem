@@ -99,17 +99,18 @@ label[for=remember]{
 }
 
 input[type=checkbox] {
- 	display:inline-block;
-  vertical-align:top;
+	display:inline-block;
+	vertical-align:top;
 }
 
 .p-container {
  	padding:0 20px 20px 20px;
-    color:#636369;	
+    color:#636369;
+	padding-top:8px;
 }
 
 .p-container:after {
- 	clear:both;
+  clear:both;
   display:table;
   content:"";
 }
@@ -153,8 +154,9 @@ div.centered {
     text-align: center;
 }
 
+/* Smartphones (landscape) ----------- */
 @media only screen 
-	and (min-width : 321px) {
+	and (min-width : 320px) {
 		/* Styles */
 	.p-container span {
 	  padding-top:8px;
@@ -163,7 +165,7 @@ div.centered {
 
 /* Smartphones (portrait) ----------- */
 @media only screen 
-	and (max-width : 320px) {
+	and (min-width : 481px) {
 		/* Styles */
 	.p-container span {
 	  padding-top:0px;
@@ -175,6 +177,6 @@ div.centered {
 	and (min-width : 1024px) {
 		/* Styles */
 	.p-container span {
-	  padding-top:0px;
+	  padding-top:8px;
 	}
 }
