@@ -80,5 +80,5 @@ a {
 @media only screen 
 	and (min-width : 1024px) {
 		/* Styles */
-		.landing li { float: left; width: 20%; }
+		.landing li { float: left; width: 25%; }
 }
