@@ -69,7 +69,7 @@ a {
 @media only screen 
 	and (min-width : 481px) {
 		/* Styles */
-		.landing li { float: left; width: 33.2%; }
+		.landing li { float: left; width: 33.2%; height: 75%; }
 		body {
 			padding-top:0px !important;
 		}
