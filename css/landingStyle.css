@@ -69,16 +69,10 @@ a {
 @media only screen 
 	and (min-width : 481px) {
 		/* Styles */
-		.landing li { float: left; width: 33.2%; height: 75%; }
+		.landing li { float: left; width: 33.2%;}
 		body {
 			padding-top:0px !important;
+			padding-bottom:0px !important;
 		}
-}
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-	and (min-width : 1024px) {
-		/* Styles */
-		.landing li { float: left; width: 25%; }
+	}
 }

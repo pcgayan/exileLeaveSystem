@@ -3,27 +3,41 @@
 <head>
    <title>.::ExileSoft Mobile::.</title>
 	<meta name="exileMobile" content="yes" />
-	<!--<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />-->
-	<meta name="viewport" content="initial-scale = 1.0, minimum-scale=1, maximum-scale=1" />
+	<meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1, maximum-scale=1" />
+	<!--<meta name="viewport" content="initial-scale = 1.0, minimum-scale=1, maximum-scale=1" />-->
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/landingStyle.css" />
+	
+	<link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.mobile-1.3.1.css" />
+	<link rel="stylesheet" href="css/jqm-docs-1.3.1.css" />	
+	
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+
 </head>
 <body>
+	<script>
+		//$(document).ready(function() {
+			//$('.MainContent').css('min-height', $(window).innerHeight());
+		//});
+		$(window).on("scroll", function() {
+			var s = Math.min(400, $(document).scrollTop()) + 100;
+			$("img").width(s).height(s);
+		});?
+		//alert($(window).innerHeight());
+	</script>
 
-	<div id="MainContent">
-	
+	<div class='MainContent' id="MainContent">	
 		<ul id="landing" class="landing">
-			
-			<li><a href="img/thumb/time2.jpg"><img src="img/thumb/time2.jpg" alt="Time" /></a></li>
+			<li><a href="img/Time.jpg"><img src="img/thumb/time2.jpg" alt="Time" /></a></li>
 			<li><a href="img/thumb/profile2.jpg"><img src="img/thumb/profile2.jpg" alt="Profile" /></a></li>
 			<li><a href="img/thumb/leave4.jpg"><img src="img/thumb/leave4.jpg" alt="Leave" /></a></li>
 			<li><a href="img/thumb/team.jpg"><img src="img/thumb/team.jpg" alt="Team" /></a></li>
 			<li><a href="img/thumb/events.jpg"><img src="img/thumb/events.jpg" alt="Events" /></a></li>
 			<li><a href="img/thumb/settings.jpg"><img src="img/thumb/settings.jpg" alt="Setting" /></a></li>
-			
 		</ul>
-		
-	</div>	
+	</div>
 </div>
 
 </body>
