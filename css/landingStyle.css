@@ -18,14 +18,14 @@ a {
 }
 
 #HeaderLandscape { 
-	background: #292929; padding: 0; border-bottom: 0px solid #3c3c3c;
+	background: #292929; padding: 0; border-bottom: 0px solid #3c3c3c; width: 100%;
 }
 
 #HeaderLandscape img { 
 	display: block; margin: 0 auto 0;
 }
 #HeaderPortrait { 
-	background: #292929; padding: 0; border-bottom: 0px solid #3c3c3c;
+	background: #292929; padding: 0; border-bottom: 0px solid #3c3c3c; width: 100%;
 }
 
 #HeaderPortrait img { 
