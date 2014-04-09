@@ -24,14 +24,12 @@ a {
 }
 
 #HeaderLandscape { 
-background-size:100% 100%;
 }
 
 #HeaderLandscape img { 
 }
 
 #HeaderPortrait { 
-background-size:100% 100%;
 }
 
 #HeaderPortrait img { 
@@ -63,7 +61,7 @@ background-size:100% 100%;
 @media only screen 
 	and (min-width : 480px) {
 		/* Styles */
-		.landing li { float: left; width: 27%;}
+		.landing li { float: left; width: 28%;}
 		#HeaderPortrait { 
 			display: none;
 		}
