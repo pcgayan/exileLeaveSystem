@@ -1,16 +1,21 @@
-* { box-sizing: border-box; padding:0; margin: 0; }
+* { 
+	box-sizing: border-box; 
+	padding:0; 
+	margin: 0;
+	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
 
 body {
-  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
   color:#292929;
   font-size:12px;
   padding-top:0px !important;
+  padding-bottom:0px !important;
   background:#292929 !important;
 }
 
-
 img {
 	border: none;
+	max-width: 100%;
 }
 
 a { 
@@ -18,46 +23,26 @@ a {
 }
 
 #HeaderLandscape { 
-	background: #292929; padding: 0; border-bottom: 0px solid #3c3c3c; width: 100%;
+	width: 100%;
+	max-width: 100%;
 }
 
 #HeaderLandscape img { 
-	display: block; margin: 0 auto 0;
+	display: block; 
+	max-width: 100%;
 }
 #HeaderPortrait { 
-	background: #292929; padding: 0; border-bottom: 0px solid #3c3c3c; width: 100%;
+	width: 100%;
 }
 
 #HeaderPortrait img { 
-	display: block; margin: 0 auto 0;
+	display: block; 
 }
 
 #MainContent { 
-  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-  color:white;
-  font-size:12px;
-  background:#292929;
 }
 
-#Footer { 
-	padding: 10px;
-	border-top: none;
-	left:50%;
-} 
-
-#SocialLinks { 
-	padding: 10px 0 0 0;
-}
-
-#SocialLinks:after {
-	clear: both; content: "."; display: block; height: 0; visibility: hidden;
-}
-
-#SocialLinks a { 
-	display: block; float: left; padding-right: 15px;
-}
-
-.landing { list-style: none; padding: 0; margin: 0; }
+.landing { list-style: none;}
 .landing:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
 .landing li { float: left; width: 50%; }
 .landing li a { display: block; margin: 4px; border: 1px solid #3c3c3c; }
@@ -69,7 +54,7 @@ a {
 		/* Styles */
 		.landing li { float: left; width: 50%; }
 		body {
-			padding-top:50px!important;
+			//padding-top:50px!important;
 		}
 		#HeaderLandscape{ 
 			display: none;
@@ -83,10 +68,10 @@ a {
 @media only screen 
 	and (min-width : 481px) {
 		/* Styles */
-		.landing li { float: left; width: 33.2%;}
+		.landing li { float: left; width: 25.2%;}
 		body {
-			padding-top:0px !important;
-			padding-bottom:0px !important;
+			//padding-top:0px !important;
+			//padding-bottom:0px !important;
 		}
 		#HeaderPortrait { 
 			display: none;
