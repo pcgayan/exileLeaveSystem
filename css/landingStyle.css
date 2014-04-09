@@ -5,6 +5,14 @@
 	font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
 }
 
+img {
+	border: none;
+}
+
+a { 
+	color: #444340; 
+}
+
 body {
   color:#292929;
   font-size:12px;
@@ -12,34 +20,13 @@ body {
   padding-bottom:0px !important;
   background:#292929 !important;
 }
-
-img {
-	border: none;
-	max-width: 100%;
-}
-
-a { 
-	color: #444340; 
+#MainContent {
 }
 
 #HeaderLandscape { 
-	width: 100%;
-	max-width: 100%;
 }
 
-#HeaderLandscape img { 
-	display: block; 
-	max-width: 100%;
-}
 #HeaderPortrait { 
-	width: 100%;
-}
-
-#HeaderPortrait img { 
-	display: block; 
-}
-
-#MainContent { 
 }
 
 .landing { list-style: none;}
@@ -68,7 +55,7 @@ a {
 @media only screen 
 	and (min-width : 481px) {
 		/* Styles */
-		.landing li { float: left; width: 25.2%;}
+		.landing li { float: left; width: 30%;}
 		body {
 			//padding-top:0px !important;
 			//padding-bottom:0px !important;
