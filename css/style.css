@@ -31,7 +31,7 @@ form:after {
 }
 
 form:before {
- 	content:"";
+  content:"";
   display:block;
   position:absolute;
   width:8px;
@@ -39,7 +39,7 @@ form:before {
   border-radius:50%;
   left:34%;
   top:-7px;
-  box-shadow: 0 0 6px 4px #fff;
+  //box-shadow: 0 0 6px 10px #fff;
 }
 
 .inset {
